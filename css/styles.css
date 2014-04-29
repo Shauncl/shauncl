@@ -1,0 +1,100 @@
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section,
+summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font: inherit;
+}
+
+header {
+    clear: both;
+    padding: 0.5em 2em;
+    height: 100px;
+    font-family: 'Roboto', 'Arial Black', Gadget, sans-serif;
+}
+
+.avatar {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: url("/images/mayaApple.png") no-repeat;
+    background-position: 45%;
+    -moz-background-size: 110px;
+    background-size: 110px;
+}
+
+nav {
+    float: right;
+    margin-top: 2.5em;
+}
+
+    nav ul {
+        list-style: none;
+    }
+
+        nav ul li {
+            display: inline;
+            margin-left: 3em;
+        }
+
+    nav a {
+        padding: .5em 0;
+        color: white;
+        text-decoration: none;
+    }
+
+        nav a:hover {
+            border-bottom: 2px solid white;
+        }
+
+.header-frame {
+    background: linear-gradient( rgba(80, 109, 125, 0.85) 100%, rgba(80, 109, 125, 0.85) 100%), url("/images/skyline.png"), no-repeat;
+    -moz-background-size: contain;
+    background-size: cover;
+}
+
+.intro {
+    padding: 6em 0em;
+    color: white;
+    text-align: center;
+}
+
+h1, h3 {
+    font-family: 'Roboto Slab', 'Arial Black', Gadget, sans-serif;
+}
+
+.intro h1 {
+    font-size: 3.5em;
+}
+
+.intro h3 {
+    color: white;
+    font-size: 1.75em;
+}
+
+section {    
+    width: 800px;
+    margin: 0 auto;
+}
+
+    section h1 {
+        margin-top: 1em;
+        color: #808080;
+        font-size: 3.5em;
+        text-align: center;
+    }
+
+    section p {
+        font-size: 1em;
+        letter-spacing: 0.03em;
+        line-height: 2em;
+        margin: 1.7em 0;
+        color: #808080;
+        font-family: 'Roboto', 'Arial Black', Gadget, sans-serif;
+    }
